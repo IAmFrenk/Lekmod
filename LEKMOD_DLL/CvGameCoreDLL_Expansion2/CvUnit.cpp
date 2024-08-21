@@ -9506,6 +9506,12 @@ void CvUnit::PerformCultureBomb(int iRadius, int iMaxRadiusFromOwnedCities, bool
 		return;
 	}
 
+	// TODO Frenk: TEMP
+	if (iMaxRadiusFromOwnedCities <= 0)
+	{
+		return;
+	}
+
 	CvPlot* pThisPlot = plot();
 
 	CvPlayerAI& kPlayer = GET_PLAYER(getOwner());
