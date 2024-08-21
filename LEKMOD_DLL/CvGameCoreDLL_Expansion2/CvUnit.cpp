@@ -9407,7 +9407,7 @@ bool CvUnit::CanCultureBomb(const CvPlot* pPlot, bool bTestVisible) const
 {
 	VALIDATE_OBJECT
 
-	if(m_pUnitInfo->GetCultureBombRadius() <= 0 && m_pUnitInfo->CultureBombRadiusNeutral() <= 0)
+	if(m_pUnitInfo->GetCultureBombRadius() <= 0 && m_pUnitInfo->GetCultureBombRadiusNeutral() <= 0)
 		return false;
 
 	if(isDelayedDeath())
@@ -9607,7 +9607,7 @@ void CvUnit::PerformCultureBomb(int iRadius, int iMaxRadiusFromOwnedCities, bool
 					iMaxDXx = iMaxRadiusFromOwnedCities - MAX(0, iDYy);
 					for (iDXx = -iMaxRadiusFromOwnedCities - MIN(0, iDYy); iDXx <= iMaxDXx; iDXx++) // MIN() and MAX() stuff is to reduce loops (hexspace!)
 					{
-						pLoopPlotDistance = plotXY(pPlot->getX(), pPlot->getY(), iDXx, iDYy);
+						pLoopPlotDistance = plotXY(pLoopPlot->getX(), pLoopPlot->getY(), iDXx, iDYy);
 #else
 				for(iDXx = -(iMaxRadiusFromOwnedCities); iDXx <= iMaxRadiusFromOwnedCities; iDXx++)
 				{
@@ -9616,13 +9616,13 @@ void CvUnit::PerformCultureBomb(int iRadius, int iMaxRadiusFromOwnedCities, bool
 
 					for(iDYy = -(iMaxRadiusFromOwnedCities); iDYy <= iMaxRadiusFromOwnedCities; iDYy++)
 					{
-						pLoopPlotDistance = plotXYWithRangeCheck(pPlot->getX(), pPlot->getY(), iDXx, iDYy, iMaxRadiusFromOwnedCities);
+						pLoopPlotDistance = plotXYWithRangeCheck(pLoopPlot->getX(), pLoopPlot->getY(), iDXx, iDYy, iMaxRadiusFromOwnedCities);
 #endif
 						if(pLoopPlotDistance != NULL)
 						{
 							if(pLoopPlotDistance->getOwner() == getOwner() && pLoopPlotDistance->isCity())
 							{
-								if(pLoopPlotDistance->getLandmass() == pPlot->getLandmass() || hexDistance(iDXx, iDYy) < iMaxRadiusFromOwnedCities) // one less for off shore
+								if(pLoopPlotDistance->getLandmass() == pLoopPlot->getLandmass() || hexDistance(iDXx, iDYy) < iMaxRadiusFromOwnedCities) // one less for off shore
 								{
 									foundOwnedCityCloseEnough = true;
 									break;
