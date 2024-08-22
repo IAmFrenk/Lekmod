@@ -15,6 +15,12 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
+			<ImprovementType>IMPROVEMENT_MINE_MIKERONESIA</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Belief_ImprovementYieldChanges>
 	
 	<!-- localization -->

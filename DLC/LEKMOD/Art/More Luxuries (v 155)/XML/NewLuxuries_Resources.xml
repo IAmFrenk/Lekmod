@@ -531,6 +531,14 @@
 			<ResourceType>RESOURCE_JADE</ResourceType>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_MINE_MIKERONESIA</ImprovementType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE_MIKERONESIA</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 		</Row>
@@ -544,6 +552,10 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE_MIKERONESIA</ImprovementType>
 			<ResourceType>RESOURCE_LAPIS</ResourceType>
 		</Row>
 	</Improvement_ResourceTypes>

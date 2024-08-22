@@ -1,0 +1,309 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+	<event_tracks>
+		<event_track ec="1000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1040">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1120">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1160">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1200">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1280">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1400">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1440">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1520">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1560">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1600">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1640">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1800">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2040">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2200">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1290">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1020">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1100">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1140">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1180">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1220">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1420">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1500">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1540">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1580">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1620">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2020">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2100">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2220">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1285">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1110">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1450">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1460">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1480">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2440">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+	</event_tracks>
+	<triggers>
+		<!-- ec="1000" IdleA -->
+		<trigger type="FTimedTriggerEffect" id="0" time="0" duration="3.33333" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_DROMON_IDLE_SMOKE" bone="breath4.2" />
+
+		<!-- ec="1100" AttackA -->
+		<trigger type="FTimedTriggerSound" id="1" time="0.6" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="2" time="0.75" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_U_BYZANTIUM_DROMON_FLAME" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="3" time="0.75" duration="0.4" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_DROMON_FLAME_TRAIL" bone="breath4.2" />
+		<trigger type="FTimedTriggerTransfer" id="4" time="0.75" duration="0" repeat="0" ec="1100" track="3" refid="3" speed="0" tangent.x="0" tangent.y="-0.1" tangent.z="0" />
+
+		<!-- ec="1120" Charge_Run -->
+		<trigger type="FTimedTriggerSound" id="5" time="0.044445" duration="0" repeat="0" ec="1120" track="1" event="AS3D_UNIT_DRAGON_WING_FLAP" bone="" tier="-1" />
+
+		<!-- ec="1140" Charge_Attack -->
+		<trigger type="FTimedTriggerSound" id="6" time="0.6" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="7" time="0.75" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_U_BYZANTIUM_DROMON_FLAME" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="8" time="0.75" duration="0.4" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_DROMON_FLAME_TRAIL" bone="breath4.2" />
+		<trigger type="FTimedTriggerTransfer" id="9" time="0.75" duration="0" repeat="0" ec="1140" track="3" refid="8" speed="0" tangent.x="0" tangent.y="-0.1" tangent.z="0" />
+
+		<!-- ec="1160" Attack_City -->
+		<trigger type="FTimedTriggerSound" id="10" time="0.6" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="11" time="0.75" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_U_BYZANTIUM_DROMON_FLAME" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="12" time="0.75" duration="0.4" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_DROMON_FLAME_TRAIL" bone="breath4.2" />
+		<trigger type="FTimedTriggerTransfer" id="13" time="0.75" duration="0" repeat="0" ec="1160" track="3" refid="12" speed="0" tangent.x="0" tangent.y="-0.1" tangent.z="0" />
+
+		<!-- ec="1180" Bombardment -->
+		<trigger type="FTimedTriggerSound" id="14" time="0.6" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="15" time="0.75" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_U_BYZANTIUM_DROMON_FLAME" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="16" time="0.75" duration="0.4" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_DROMON_FLAME_TRAIL" bone="breath4.2" />
+		<trigger type="FTimedTriggerTransfer" id="17" time="0.75" duration="0" repeat="0" ec="1180" track="3" refid="16" speed="0" tangent.x="0" tangent.y="-0.1" tangent.z="0" />
+
+		<!-- ec="1200" Death_A -->
+		<trigger type="FTimedTriggerSound" id="18" time="0.3902169" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_ANIMAL_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="19" time="0.106674" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_IMPACT_$(WEAPON)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="20" time="0.114290476" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="21" time="0.4283714" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="22" time="0.007407" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="wingclav01" />
+
+		<!-- ec="1280" Bombard_Defense -->
+		<trigger type="FTimedTriggerSound" id="23" time="0.448029935" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="24" time="0.332219869" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+
+		<!-- ec="1400" Run -->
+		<trigger type="FTimedTriggerSound" id="25" time="0.07092935" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_RUN_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="26" time="0" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_DRAGON_WING_FLAP" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="27" time="0" duration="0.54" repeat="0" ec="1400" track="2" event="ART_DEF_VEFFECT_DUST_TRAIL_SM" bone="" />
+
+		<!-- ec="1440" Stop_Run -->
+		<trigger type="FTimedTriggerSound" id="28" time="0.161866382" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="29" time="0.2611327" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="30" time="0.454284221" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="31" time="0.7430768" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+
+		<!-- ec="1460" TurnRunRight -->
+		<trigger type="FTimedTriggerSound" id="32" time="0.07329902" duration="0" repeat="0" ec="1460" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_RUN_$(TERRAIN)" bone="" tier="-1" />
+
+		<!-- ec="1480" TurnRunLeft -->
+		<trigger type="FTimedTriggerSound" id="33" time="0" duration="0.53" repeat="0" ec="1480" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_RUN_T1" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="34" time="0.07092935" duration="0" repeat="0" ec="1480" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_RUN_$(TERRAIN)" bone="" tier="-1" />
+
+		<!-- ec="1500" Fortify -->
+		<trigger type="FTimedTriggerSound" id="35" time="0.649888933" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="36" time="0" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_FORTIFY" bone="" tier="-1" />
+
+		<!-- ec="1600" Combat_Ready -->
+		<trigger type="FTimedTriggerSound" id="37" time="0.649888933" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+
+		<!-- ec="2000" IdleB -->
+		<trigger type="FTimedTriggerEffect" id="38" time="0" duration="6" repeat="0" ec="2000" track="2" event="ART_DEF_VEFFECT_DROMON_IDLE_SMOKE" bone="breath4.2" />
+
+		<!-- ec="2100" AttackB -->
+		<trigger type="FTimedTriggerSound" id="39" time="0.6" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="40" time="0.75" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_U_BYZANTIUM_DROMON_FLAME" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="41" time="0.75" duration="0.4" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_DROMON_FLAME_TRAIL" bone="breath4.2" />
+		<trigger type="FTimedTriggerTransfer" id="42" time="0.75" duration="0.4" repeat="0" ec="2100" track="3" refid="41" speed="0" tangent.x="0" tangent.y="-0.1" tangent.z="0" />
+
+		<!-- ec="2200" Death_B -->
+		<trigger type="FTimedTriggerSound" id="43" time="0.09762381" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_DRAGON_ATTACK_VOX_A" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="44" time="0.106674" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_IMPACT_$(WEAPON)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="45" time="0.335046649" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_ANIMAL_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="46" time="0.36816746" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="47" time="0.00555555569" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_BLUNT_HIT_MD" bone="wingclav01" />
+
+		<!-- ec="2440" Run_Stop_IdleB -->
+		<trigger type="FTimedTriggerSound" id="48" time="0.32224384" duration="0" repeat="0" ec="2440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="49" time="0.485765725" duration="0" repeat="0" ec="2440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="50" time="0.7690028" duration="0" repeat="0" ec="2440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="51" time="0.161866382" duration="0" repeat="0" ec="2440" track="1" event="AS3D_UNIT_U_HUNS_HORSEARCHER_HORSE_FOOT_$(TERRAIN)" bone="" tier="-1" />
+	</triggers>
+</trigger_system>
