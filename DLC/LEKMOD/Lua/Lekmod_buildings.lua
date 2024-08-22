@@ -7,7 +7,7 @@ include("PlotIterators.lua")
 ------------------------------------------------------------------------------------------------------------------------
 local lake_wonder_id = GameInfoTypes["BUILDING_LAKE_WONDER"]
 
-function lekmod_huey_lake_check(player_id, city_id, building_id)
+local function huey_lake_check(player_id, city_id, building_id)
 
    local player = Players[player_id]
    local city = player:GetCityByID(city_id)
@@ -30,6 +30,6 @@ function lekmod_huey_lake_check(player_id, city_id, building_id)
 
    end
 
-return true end
-GameEvents.CityCanConstruct.Add(lekmod_huey_lake_check)
+end
+GameEvents.CityCanConstruct.Add(huey_lake_check)
 ------------------------------------------------------------------------------------------------------------------------

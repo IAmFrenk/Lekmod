@@ -9,7 +9,7 @@ local is_active = LekmodUtilities:is_civilization_active(this_civ)
 ------------------------------------------------------------------------------------------------------------------------
 -- Ottoman UA. Gain faith when a unit is promoted.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_ottoman_ua_promotion_faith(player_id, unit_id)
+local function ottoman_ua_promotion_faith(player_id, unit_id)
 
    local player = Players[player_id]
 
@@ -28,5 +28,5 @@ function lekmod_ottoman_ua_promotion_faith(player_id, unit_id)
 end
 ------------------------------------------------------------------------------------------------------------------------
 if is_active then
-   GameEvents.UnitPromoted.Add(lekmod_ottoman_ua_promotion_faith)
+   GameEvents.UnitPromoted.Add(ottoman_ua_promotion_faith)
 end

@@ -9,7 +9,7 @@ local is_active = LekmodUtilities:is_civilization_active(this_civ)
 -- Moari UA. Remove the Maori promotion from all units if the game turn is greater than 5.
 -- This creates a desired effect of having units always start with additional movement for at least 1 turn after turn 5.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_maori_ua(player_id)
+local function maori_ua(player_id)
 
    local maori_promotion_id = GameInfoTypes["PROMOTION_MAORI"]
    local maori_promotion_civilian_id = GameInfoTypes["PROMOTION_MAORI_CIVILIAN"]
@@ -32,5 +32,5 @@ function lekmod_maori_ua(player_id)
 end
 ------------------------------------------------------------------------------------------------------------------------
 if is_active then
-   GameEvents.PlayerDoTurn.Add(lekmod_maori_ua)
+   GameEvents.PlayerDoTurn.Add(maori_ua)
 end

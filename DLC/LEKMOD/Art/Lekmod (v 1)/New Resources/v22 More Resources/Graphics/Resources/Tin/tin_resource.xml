@@ -74,10 +74,6 @@
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_MINE_MIKERONESIA</ImprovementType>
-			<ResourceType>RESOURCE_TIN</ResourceType>
-		</Row>
 	</Improvement_ResourceTypes>
 	<IconFontMapping>
 		<Row>

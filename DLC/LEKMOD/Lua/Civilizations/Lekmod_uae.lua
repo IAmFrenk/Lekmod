@@ -7,7 +7,7 @@ local is_active = LekmodUtilities:is_civilization_active(this_civ)
 ------------------------------------------------------------------------------------------------------------------------
 -- UAE UA. Award 100 gold and start a We Love the King Day (15 turns) in a city that builds a World Wonder.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_uae_wonder_ua(player_id, city_id, building_id)
+local function uae_wonder_ua(player_id, city_id, building_id)
 
    local player = Players[player_id]
    if not player:IsAlive() or player:GetCivilizationType() ~= this_civ then return end
@@ -32,7 +32,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- UAE UA. Award +3 Gold per turn and 1 experience to units stationed on a trade route.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_uae_trade_route_gold(player_id)
+local function uae_trade_route_gold(player_id)
 
 	local player = Players[player_id]
 	if player:GetCivilizationType() ~= this_civ then return end
@@ -60,6 +60,6 @@ function lekmod_uae_trade_route_gold(player_id)
 end
 ------------------------------------------------------------------------------------------------------------------------
 if is_active then
-   GameEvents.CityConstructed.Add(lekmod_uae_wonder_ua)
-   GameEvents.PlayerDoTurn.Add(lekmod_uae_trade_route_gold)
+   GameEvents.CityConstructed.Add(uae_wonder_ua)
+   GameEvents.PlayerDoTurn.Add(uae_trade_route_gold)
 end

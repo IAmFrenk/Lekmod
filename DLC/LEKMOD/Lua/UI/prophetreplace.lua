@@ -1336,10 +1336,7 @@ local iColom = GameInfo.Civilizations["CIVILIZATION_COLOMBIA"].ID
 local iTonga = GameInfo.Civilizations["CIVILIZATION_TONGA"].ID
 
 local iMaurya = GameInfo.Civilizations["CIVILIZATION_MAURYA"].ID
-local iMikeronesia = GameInfo.Civilizations["CIVILIZATION_MIKERONESIA"].ID
 local iEtho = GameInfo.Civilizations["CIVILIZATION_ETHIOPIA"].ID
-
-local iLiechtenstijn = GameInfo.Civilizations["CIVILIZATION_LIECHTENSTIJN"].ID
 
 local iAkkad = GameInfo.Civilizations["CIVILIZATION_AKKAD"].ID
 local iAssy = GameInfo.Civilizations["CIVILIZATION_ASSYRIA"].ID
@@ -1369,17 +1366,10 @@ function ResettlementsNewCities(iPlayer, iCityX, iCityY)
 					end
 					if player:GetCivilizationType() == iMaurya then 
 						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_ASHOKA"], 1)
-					elseif player:GetCivilizationType() == iMikeronesia then 
-						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_MIKERONESIA_MINING_MONUMENT"], 1)
 					elseif player:GetCivilizationType() == iEtho then
 						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_STELE"], 1)
 					else
 						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_MONUMENT"], 1)
-					end
-					if player:GetCivilizationType() == iLiechtenstijn then 
-						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_LIECHTENSTIJN_GHETTO"], 1)
-					else
-						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_BARRACKS"], 1)
 					end
 					if player:GetCivilizationType() == iAkkad then 
 						loopCity:SetNumRealBuilding(GameInfoTypes["BUILDING_AKKAD_LIBRARY"], 1)

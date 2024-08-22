@@ -7,7 +7,7 @@ local is_active = LekmodUtilities:is_civilization_active(this_civ)
 ------------------------------------------------------------------------------------------------------------------------
 -- Golden Horde UA.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_golden_horde_ua(playerID)
+local function HordeUA(playerID)
 
 	local player = Players[playerID]
 
@@ -29,5 +29,5 @@ function lekmod_golden_horde_ua(playerID)
 end
 ------------------------------------------------------------------------------------------------------------------------
 if is_active then
-   GameEvents.PlayerDoTurn.Add(lekmod_golden_horde_ua)
+   GameEvents.PlayerDoTurn.Add(HordeUA);
 end

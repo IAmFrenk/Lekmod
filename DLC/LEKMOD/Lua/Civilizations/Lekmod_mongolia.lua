@@ -8,7 +8,7 @@ local is_active = LekmodUtilities:is_civilization_active(this_civ)
 ------------------------------------------------------------------------------------------------------------------------
 -- Mongolia UA. Add a dummy building at chivalary to each city that spawns a horse resource.
 ------------------------------------------------------------------------------------------------------------------------
-function lekmod_mongol_ua_horses_add(team_id, tech_id)
+local function mongol_ua_horses_add(team_id, tech_id)
 
 	for _, player in pairs(Players) do
 		if player:GetCivilizationType() == this_civ then
@@ -25,5 +25,5 @@ function lekmod_mongol_ua_horses_add(team_id, tech_id)
 end
 ------------------------------------------------------------------------------------------------------------------------
 if is_active then
-    GameEvents.TeamTechResearched.Add(lekmod_mongol_ua_horses_add)
+    GameEvents.TeamTechResearched.Add(mongol_ua_horses_add)
 end
