@@ -9469,9 +9469,8 @@ bool CvUnit::DoCultureBomb()
 		CvPlayerAI& kPlayer = GET_PLAYER(getOwner());
 		kPlayer.changeCultureBombTimer(iCooldown);
 
-		PerformCultureBomb(pkUnitEntry->GetCultureBombRadius(), pkUnitEntry->GetCultureBombMaxRadiusFromOwnedCities(), false);
-		PerformCultureBomb(pkUnitEntry->GetCultureBombRadiusNeutral(), pkUnitEntry->GetCultureBombMaxRadiusFromOwnedCities(), true);
-
+		PerformCultureBomb(pkUnitEntry->GetCultureBombRadius(), pkUnitEntry->GetCultureBombRadiusNeutral(), pkUnitEntry->GetCultureBombMaxRadiusFromOwnedCities());
+		
 		if(pThisPlot->isActiveVisible(false))
 		{
 #ifndef REMOVE_GAMEPLAY_UNIT_ACTIVATE_ANIMATION
@@ -9497,17 +9496,16 @@ bool CvUnit::DoCultureBomb()
 }
 
 //	--------------------------------------------------------------------------------
-void CvUnit::PerformCultureBomb(int iRadius, int iMaxRadiusFromOwnedCities, bool iNeutralTilesOnly)
+void CvUnit::PerformCultureBomb(int iRadius, int iRadiusNeutral, int iMaxRadiusFromOwnedCities)
 {
-	// TODO Frenk: Toch liever 1 functie
+	PerformCultureBombInternal(iRadius, iMaxRadiusFromOwnedCities, false);
+	PerformCultureBombInternal(iRadiusNeutral, iMaxRadiusFromOwnedCities, true);
+}
 
+//	--------------------------------------------------------------------------------
+void CvUnit::PerformCultureBombInternal(int iRadius, int iMaxRadiusFromOwnedCities, bool iNeutralTilesOnly)
+{
 	if (iRadius <= 0)
-	{
-		return;
-	}
-
-	// TODO Frenk: TEMP
-	if (iMaxRadiusFromOwnedCities <= 0)
 	{
 		return;
 	}
@@ -10257,8 +10255,7 @@ bool CvUnit::build(BuildTypes eBuild)
 				CvImprovementEntry* pkImprovementInfo = GC.getImprovementInfo(eImprovement);
 				if(pkImprovementInfo)
 				{
-					PerformCultureBomb(pkImprovementInfo->GetCultureBombRadius(), pkImprovementInfo->GetCultureBombMaxRadiusFromOwnedCities(), false);
-					PerformCultureBomb(pkImprovementInfo->GetCultureBombRadiusNeutral(), pkImprovementInfo->GetCultureBombMaxRadiusFromOwnedCities(), true);
+					PerformCultureBomb(pkImprovementInfo->GetCultureBombRadius(), pkImprovementInfo->GetCultureBombRadiusNeutral(), pkImprovementInfo->GetCultureBombMaxRadiusFromOwnedCities());
 				}
 			}
 			else if(pkBuildInfo->getRoute() != NO_ROUTE)
